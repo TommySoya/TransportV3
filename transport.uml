@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>transport</OriginalElement>
+  <nodes>
+    <node x="0.0" y="538.0">transport.Bicycle</node>
+    <node x="155.0" y="538.0">transport.Train</node>
+    <node x="0.0" y="1201.0">transport.Ship</node>
+    <node x="690.0" y="538.0">transport.Aircraft</node>
+    <node x="1037.0" y="538.0">transport.Airship</node>
+    <node x="317.0" y="1201.0">transport.Submarine</node>
+    <node x="848.0" y="538.0">transport.HotAirBallon</node>
+    <node x="809.5" y="0.0">transport.AirTransport</node>
+    <node x="51.5" y="663.0">transport.MaritimeMeansOfTransport</node>
+    <node x="140.0" y="1201.0">transport.Hovercraft</node>
+    <node x="481.0" y="538.0">transport.Automobile</node>
+    <node x="299.0" y="538.0">transport.Motorcycle</node>
+    <node x="170.0" y="0.0">transport.LandTransport</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="transport.Airship" target="transport.AirTransport">
+      <point x="0.0" y="-40.0" />
+      <point x="1104.5" y="513.0" />
+      <point x="1014.5" y="513.0" />
+      <point x="82.0" y="244.0" />
+    </edge>
+    <edge source="transport.Automobile" target="transport.LandTransport">
+      <point x="0.0" y="-40.0" />
+      <point x="563.0" y="513.0" />
+      <point x="394.875" y="513.0" />
+      <point x="96.375" y="244.0" />
+    </edge>
+    <edge source="transport.Ship" target="transport.MaritimeMeansOfTransport">
+      <point x="0.0" y="-40.0" />
+      <point x="60.0" y="1176.0" />
+      <point x="107.16666666666667" y="1176.0" />
+      <point x="-111.33333333333333" y="244.0" />
+    </edge>
+    <edge source="transport.Train" target="transport.LandTransport">
+      <point x="0.0" y="-40.0" />
+      <point x="217.0" y="513.0" />
+      <point x="266.375" y="513.0" />
+      <point x="-32.125" y="244.0" />
+    </edge>
+    <edge source="transport.Hovercraft" target="transport.MaritimeMeansOfTransport">
+      <point x="0.0" y="-40.0" />
+      <point x="0.0" y="244.0" />
+    </edge>
+    <edge source="transport.Aircraft" target="transport.AirTransport">
+      <point x="0.0" y="-40.0" />
+      <point x="759.0" y="513.0" />
+      <point x="850.5" y="513.0" />
+      <point x="-82.0" y="244.0" />
+    </edge>
+    <edge source="transport.HotAirBallon" target="transport.AirTransport">
+      <point x="0.0" y="-40.0" />
+      <point x="0.0" y="244.0" />
+    </edge>
+    <edge source="transport.Bicycle" target="transport.LandTransport">
+      <point x="0.0" y="-40.0" />
+      <point x="67.5" y="513.0" />
+      <point x="202.125" y="513.0" />
+      <point x="-96.375" y="244.0" />
+    </edge>
+    <edge source="transport.Motorcycle" target="transport.LandTransport">
+      <point x="0.0" y="-40.0" />
+      <point x="380.0" y="513.0" />
+      <point x="330.625" y="513.0" />
+      <point x="32.125" y="244.0" />
+    </edge>
+    <edge source="transport.Submarine" target="transport.MaritimeMeansOfTransport">
+      <point x="0.0" y="-40.0" />
+      <point x="395.5" y="1176.0" />
+      <point x="329.8333333333333" y="1176.0" />
+      <point x="111.33333333333331" y="244.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.49654112221368174" x="586.0000000000003" y="640.5000000000002" />
+  <SelectedNodes>
+    <node>transport.LandTransport</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
